@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+body{
+    background-image:url("img1.jpg");
+    background-size: 100%;
+
+
+}
+.design{
+    height:350px;
+    width:330px;
+    color:white;
+    padding: 30px;
+    background-color: black;
+    background: linear-gradient(to top rgb(8, 8, 8),rgb(71, 65, 65));
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    box-shadow: 2px 3px 3px white;
+
+
+}
+.design h1{
+    color: chartreuse;
+}
+.container{
+    margin-top: 10px;
+    margin-right: 80%;
+}
+.design input{
+   margin: 3px;
+    border-radius: 5px;
+    background:transparent;
+    color: white;
+    padding: 10px;
+    
+
+}
+.design input[type="submit"]{
+    color: black;
+    background-color: white;
+    font-size: 16px;
+}
+.design input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: chartreuse;
+}
+footer{
+    margin-top: 35%;
+    color: white;
+}
+footer p{
+    text-align:end;
+    color: white;
+}
